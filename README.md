@@ -24,9 +24,9 @@ Setup an Amazon connect flow with lambda integration
 1. Create an Amazon Connect instance
 2. Open your instance Flows configuration, navigate to AWS Lambda and add the lambda function that you created
 3. Open Amazon Connect instance and create a new flow, add an invoke AWS Lambda function and set the destination key as 'phone_number'
-![image](https://github.com/iArvin21/vanity_numbers/assets/48306733/1d80e344-25a8-4acc-8a63-81a02c2e8ab8)
+![image](https://github.com/iArvin21/VanityNumbers/assets/48306733/0b1d784d-820b-4019-a848-7006d41e7def)
 4. Create a play prompt that will output the results of your lambda function
-![image](https://github.com/iArvin21/vanity_numbers/assets/48306733/9a187280-f5cb-4145-95de-0031f35dbdbf)
+![image](https://github.com/iArvin21/VanityNumbers/assets/48306733/0d0fa66d-0480-4187-90ca-fc044e75657d)
 
 ### Web App
 This repository also includes a simple web app (vanity_numbers folder) that displays the generated vanity numbers for the last 5 callers.
@@ -52,4 +52,5 @@ pip install flask boto3
 python app.py
 ```
 6. You can check the web app on your local environment using http://localhost:5000
-![image](https://github.com/iArvin21/vanity_numbers/assets/48306733/961f81a6-0fe6-4088-8d43-9b049206f4f9)
+![image](https://github.com/iArvin21/VanityNumbers/assets/48306733/64693013-dbb7-463f-98ad-89e098db2056)
+
